@@ -16,14 +16,9 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
-<<<<<<< HEAD
 from say_hi.views import home
 
 urlpatterns = [
     url(r'^$', home),
     #url(r'^admin/', include(admin.site.urls)),
-=======
-urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
->>>>>>> b8641c34c5b87fe34b10ece7f575de6afcb95dca
 ]
