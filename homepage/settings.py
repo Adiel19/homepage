@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '7*q@a9v3%56*j0k_4nv^vt)9za+im&fuvpb1bue4c%2$fc7n#*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['.adielg.com',]
 
@@ -103,8 +103,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.abspath(os.path.join(BASE_DIR, '../static'))
-
-try:
-    from local_settings import *
-except ImportError:
-    pass
