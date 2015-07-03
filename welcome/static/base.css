@@ -1,5 +1,5 @@
 body{
-	background-color:	#fff5ee;
+	background-color: #EFFFDA;
 	padding-top: 100px;
 }
 
@@ -29,7 +29,7 @@ body{
 }
 
 .border_shadow{
-	border: 2px #e4e4e4 solid;
+  border: 2px #e4e4e4 solid;
   padding: 0px;
   border-radius: 4px;
   box-shadow: 0 0 10px #ccc;
