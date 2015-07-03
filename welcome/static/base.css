@@ -1,15 +1,12 @@
 body{
 	background-color:	#fff5ee;
-	padding-top: 70px;
+	padding-top: 100px;
 }
 
 .col-center{
 	float: none;
 	margin: 0 auto;
-}
-
-.navbar{
-	background-color: #011f4b;
+	padding-top: 6%;
 }
 .navbar-default .navbar-nav>li>a{
 	color: #005b96;
@@ -17,4 +14,30 @@ body{
 
 .navbar-default .navbar-brand {
   color: #6497b1;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:4px !important; 
+    padding-bottom:0 !important;
+    height: 28px;
+}
+.navbar {max-height:28px !important;}
+
+.wrapper{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.border_shadow{
+	border: 2px #e4e4e4 solid;
+  padding: 0px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #ccc;
+  background-color: #fff;
+}
+h1{
+	font-family: 'Pacifico', cursive;
+}
+h2{
+	font-family: 'Dancing Script', cursive;
 }
