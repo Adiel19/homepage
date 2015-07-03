@@ -3,3 +3,4 @@ __pycache__
 *.pyc
 say_hi/__pycache__/
 homepage/local_settings.py
+homepage/pro_settings.py

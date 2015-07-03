@@ -106,3 +106,8 @@ try:
     from .local_settings import *
 except ImportError:
     pass
+
+try:
+    from .pro_settings import *
+except ImportError:
+    pass
