@@ -110,5 +110,4 @@ except ImportError:
 try:
     from .pro_settings import *
 except ImportError:
-    print("import error*****************")
     pass
