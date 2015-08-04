@@ -1,0 +1,89 @@
+body{
+	background-color: #EFFFDA;
+	padding-top: 100px;
+	width: 100%;
+	height: 100%;
+}
+
+.col-center{
+	float: none;
+	margin: 0 auto;
+	padding-top: 6%;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #005b96;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:4px !important; 
+    padding-bottom:0 !important;
+    height: 28px;
+}
+.navbar {max-height:28px !important;}
+
+.wrapper{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.border_shadow{
+  border: 2px #e4e4e4 solid;
+  padding: 0px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #ccc;
+  background-color: #ffffff;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 350%;
+  color:  #daf1ff;
+  text-align: center;
+}
+h2{
+	font-family: 'Dancing Script', cursive;
+	font-size: 200%;
+	color:#f0f9ff;
+	text-align: center;
+}
+h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 150%;
+  color: #f0f9ff;
+  text-align: center;
+}
+
+.home {
+  width: 90%;
+  height: 100%;
+  background-image:url('img/home.jpg');
+	background-size: cover;
+}
+.home img {
+width: 100%;
+}
+
+.contact {
+  width:90%;
+  height: 100%;
+  background-image:url('img/contact.jpg');
+  background-size:cover;
+}
+.contact img {
+width: 100%;
+}
+
+.projects {
+  width:90%;
+  height: 100%;
+  background-image:url('img/projects.jpg');
+  background-size:cover;
+}
+.projects img {
+width: 100%;
+}
+
+.logo {
+  font-weight:800;
+  padding:25px;
+  text-align:center;
+}

@@ -1,0 +1,56 @@
+{% extends 'welcome/base.html' %}
+
+{% block title %} Adiel S. Granados {% endblock %}
+
+{% block home %}
+
+<div class="home center-block border_shadow">
+	
+	<div class="row">
+		<div class="col-xs-4 line"><hr></div>
+		<div class="col-xs-4 logo"><h1><strong>Adiel S. Granados</strong></h1></div>
+		<div class="col-xs-4 line"><hr></div>
+	</div>	
+
+	<div class="row">
+		<div class="col-xs-4"></div>
+		<div class="col-xs-4 logo"><h2>Self-taught programmer and web-developer</h2></div>
+		<div class="col-xs-4"></div>
+	</div>
+
+</div>
+
+<div class="contact center-block border_shadow">
+	
+	<div class="row">
+		<div class="col-xs-4 line"><hr></div>
+		<div class="col-xs-4 logo"><h2><strong>Contact</strong></h2></div>
+		<div class="col-xs-4 line"><hr></div>
+	</div>	
+
+	<div class="row">
+		<div class="col-xs-4"></div>
+		<div class="col-xs-4 logo"><a href="mailto:contact.adielg@gmail.com"><h3>contact.adielg@gmail.com</h3></a></div>
+		<div class="col-xs-4"></div>
+	</div>
+
+</div>
+
+<div class="projects center-block border_shadow">
+	
+	<div class="row">
+		<div class="col-xs-4 line"><hr></div>
+		<div class="col-xs-4 logo"><h2><strong>Projects</strong></h2></div>
+		<div class="col-xs-4 line"><hr></div>
+	</div>	
+
+	<div class="row">
+		<div class="col-xs-4"></div>
+		<div class="col-xs-4 logo"><h3>github.com/Adiel19</h3></div>
+		<div class="col-xs-4"></div>
+	</div>
+
+</div>
+
+
+{% endblock %}
